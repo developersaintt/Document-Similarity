@@ -2,6 +2,19 @@
 
 this is a document similarity checker I made out of curiosity about how the plaigrism checker works but in the end I knew they don't work how I thought they work. So here is what I coded. 😁
 
+## Requirements
+library      | version 
+------------ | -------------
+Numpy        |    1.16.2
+NLTK         |    3.4.4
+Pandas       |    0.24.2
+
+you can install any missing library using the following command...
+
+```javascript
+pip install <library_name>
+```
+
 ## line_similarity.py
 
 this file takes two strings as an argument and will tell you the similarity between them...
