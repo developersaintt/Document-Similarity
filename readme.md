@@ -8,6 +8,7 @@ library      | version
 Numpy        |    1.16.2
 NLTK         |    3.4.4
 Pandas       |    0.24.2
+Textract     |    1.6.3
 
 you can install any missing library using the following command...
 
@@ -29,4 +30,10 @@ for example the similarity between these two lines
 
 is 97.53%
 
-working on document similarity to work with document files such as .docx will update soon....
+
+## document_similarity.py
+this file takes two file path as argument and a threshold and will give at the output the lines that are similar above the threshold ...
+
+```javascript
+python document_similarity.py -f1 "path/to/first/docfile.docx" -f2 "path/to/second/docfile.docx" -t 0.8
+```
